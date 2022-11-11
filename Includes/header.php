@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="Assets/Images/icons8-globee-16.png">
     <link href="Assets/Style/style.css" rel="stylesheet">
+
 </head>
 <body class="">
 <!--Border around the page -->
@@ -14,14 +16,16 @@
 <div id="site-border-top"></div>
 <div id="site-border-bottom"></div>
 <header>
-    <nav class="navbar ">
-        <div class="container">
-                <ul class="nav ">
-                    <li><a href="index.php" id="border">01 : Home</a></li>
-                    <li><a href="./projects.php" id="border">02 : Works</a></li>
-                    <li><a href="./about_me.php" id="border">03 : About me</a></li>
-                    <li><a href="contact.php" title="">04 : Contact</a></li>
-                </ul>
-            </div>
-    </nav>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+        <ul class="menu__box">
+            <li><a class="menu__item" href="index.php">Home</a></li>
+            <li><a class="menu__item" href="about_me.php">About Me</a></li>
+            <li><a class="menu__item" href="projects.php">Projects</a></li>
+            <li><a class="menu__item" href="contact.php">Contact</a></li>
+        </ul>
+    </div>
 </header>

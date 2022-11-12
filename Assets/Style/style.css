@@ -117,7 +117,6 @@ body{
 }
 .container {
     display: flex;
-
 }
 
 .column {
@@ -280,4 +279,44 @@ body{
     bottom: 30px;
     right: 30px;
     letter-spacing: 1px;
+}
+/*About Me*/
+.box {
+    margin: auto;
+    width: 70%;
+    height: 87vh;
+    padding: 15px;
+    background-color: rgba(0, 65, 86, 0.65);
+}
+.column-about {
+    height: 500px;
+    flex: 50%;
+    color: white;
+    font-family: "OCR A Std";
+    text-align: center;
+}
+.column-child{
+    padding:20px;
+    margin: auto;
+}
+.column-child .progress {
+    background-color: #faded3;
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+}
+.column-child .progress .progress-bar {
+    height: .7rem;
+    background-color: #f0642d;
+}
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+    .column-about {
+        flex-direction: column;
+    }
+    .column-child {
+        flex-direction: column;
+    }
 }

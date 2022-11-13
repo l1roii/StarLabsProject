@@ -115,8 +115,12 @@ body{
 .menu__item:hover {
     background-color: #CFD8DC;
 }
-.container {
+.about {
     display: flex;
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    background-color: rgba(0, 65, 86, 0.65);
 }
 
 .column {
@@ -281,13 +285,13 @@ body{
     letter-spacing: 1px;
 }
 /*About Me*/
-.box {
-    margin: auto;
-    width: 70%;
-    height: 87vh;
-    padding: 15px;
-    background-color: rgba(0, 65, 86, 0.65);
-}
+/*.box {*/
+/*    margin: auto;*/
+/*    width: 70%;*/
+/*    height: 87vh;*/
+/*    padding: 15px;*/
+/*    background-color: rgba(0, 65, 86, 0.65);*/
+/*}*/
 .column-about {
     height: 500px;
     flex: 50%;
@@ -318,5 +322,42 @@ body{
     }
     .column-child {
         flex-direction: column;
+    }
+}
+/* Animation Header Background */
+/*.large-header {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    background: rgba(5, 94, 227, 0.58);*/
+/*    overflow: hidden;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    z-index: 1;*/
+/*}*/
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #be6d1c;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.particle .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+    font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+    .demo-1 .main-title {
+        font-size: 3em;
     }
 }

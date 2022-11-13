@@ -1,31 +1,20 @@
 <?php  include("Includes/header.php")?>
 
 <div class="box">
-    <div class="container">
+    <div class="container about">
         <div class="column-about">
             <div class="column-child">
-                <img width="300px" height="300px" src="Assets/Images/home_image.jpg">
+<!--                <img width="300px" height="300px" src="Assets/Images/home_image.jpg">-->
             </div>
             <div class="column-child">
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-                         aria-valuemax="100"></div>
-                </div>
-                <span>CSS3</span> <span>75%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                         aria-valuemax="100"></div>
-                </div>
-                <span>PHP</span> <span>50%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                         aria-valuemax="100"></div>
-                </div>
-                <span>JAVASCRIPT</span> <span>50%</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="90" aria-valuemin="0"
-                         aria-valuemax="100"></div>
-                </div>
+                <h3> < Skills /> </h3>
+                <img src="Assets/Images/html.png">
+                <img src="Assets/Images/css.png">
+                <img src="Assets/Images/js.png">
+                <img src="Assets/Images/php.png">
+                <img src="Assets/Images/java.png">
+                <img src="Assets/Images/sql.png">
+                <img src="Assets/Images/mysql.png">
             </div>
         </div>
         <div class="column-about">

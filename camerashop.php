@@ -54,5 +54,7 @@
         <a href="https://github.com/l1roii/WebMultimedia"><img width="50px" height="50px" src="Assets/Images/git.png"></a>
     </div>
 </div>
+<a href="projects.php"><img width="50px" height="50px" src="Assets/Images/back.png"></a>
 <script src="Assets/Js/script.js"></script>
+
 </body>

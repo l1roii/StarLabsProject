@@ -1,10 +1,10 @@
 <?php  include("Includes/header.php")?>
 
-<div class="box">
+<div class="">
     <div class="container about">
         <div class="column-about">
             <div class="column-child">
-<!--                <img width="300px" height="300px" src="Assets/Images/home_image.jpg">-->
+                <img width="200px" height="200px" src="Assets/Images/home_image.jpg" alt="">
             </div>
             <div class="column-child">
                 <h3> < Skills /> </h3>
@@ -26,12 +26,13 @@
             <div class="column-child">
                     <h5> About me</h5>
                 <p class="lead">
-                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                    imperdiet et, porttitor
-                    at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                    porttitor accumsan tincidunt.
+                    I'm from Prishtina, currently finishing my last year of bachelors in Computer Science and Engineering
+                    in "UBT College". Aside from university I've participated and completed some trainings and courses.
                 </p>
+                <p>If you want to know more check out my CV <br>
+                    <a href="Assets/Files/CV-LiranëBerisha.pdf"><img width="50px" height="50px" src="Assets/Images/cv.png"></a></p>
             </div>
         </div>
     </div>
 </div>
+

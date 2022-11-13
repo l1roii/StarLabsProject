@@ -33,7 +33,7 @@
             <div class="column-child">
                 <div class="box_project">
                     <div class="image">
-                        <img alt="" src="Assets/Images/Camera_shop.png">
+                        <img alt="" src="Assets/Images/Healthcare1.png">
                     </div>
                     <div class="description">
                         <p>A website Healthcare System Management - Project for University</p>

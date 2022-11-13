@@ -6,7 +6,7 @@
     <!-- Full-width images with number text -->
     <div class="mySlides">
         <div class="numbertext">1 / 6</div>
-        <img src="Assets/Images/Healthcare.png" style="width:100%" alt="">
+        <img src="Assets/Images/Healthcare1.png" style="width:100%" alt="">
     </div>
 
     <div class="mySlides">
@@ -63,5 +63,7 @@
         Version 2<a href="https://github.com/l1roii/Healthcare"><img width="50px" height="50px" src="Assets/Images/git.png"></a>
     </div>
 </div>
+<a href="projects.php"><img width="50px" height="50px" src="Assets/Images/back.png"></a>
 <script src="Assets/Js/script.js"></script>
+
 </body>
